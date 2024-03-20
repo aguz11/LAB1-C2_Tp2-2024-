@@ -6,7 +6,7 @@ package lab1.c2_tp2.pkg2024;
 /* 
  * Clase Perro hereda de la clase Mascota
 
- * @author: Martin Piriz, Agustin Jofre 
+ * @author: Martin Piriz, Agustin Jofre ,Rocio Dell
 
  * @version: 1 20-03-24
 
