@@ -2,23 +2,31 @@ package lab1.c2_tp2.pkg2024;
 
 /* Autor Rocio Dell Elice  */
 
-public class Gato {
-    
-    private String nombre;
-    private int edad;
-    private String color;
 
-    public Gato(String nombre, int edad, String color) {
-        this.nombre = nombre;
-        this.edad = edad;
-        this.color = color;
+public class Gato extends Mascota {
+    String comida;
+
+    public Gato(String nombre, String raza, int edad, String comida) {
+        super(nombre, raza, edad);
+        this.comida = comida;
+    }
+
+     public String getComida() {
+        return comida;
+    }
+
+    public void setComida(String comida) {
+        this.comida = comida;
+    }
+
+
+    @Override
+    public void Alimentarse() {
+         System.out.println(getNombre() + " come: " + comida);
+    }
+
+    @Override
+   public void Saludar() {
+        System.out.println("Hola soy " + getNombre());
     }
 }
-
-    public void maullar() {
-        System.out.println("¡Miau!");
-    }
-
-    public void comer() {
-        System.out.println(nombre + " está comiendo.");
-    }
