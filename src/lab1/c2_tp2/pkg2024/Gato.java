@@ -14,8 +14,6 @@ public class Gato {
         this.color = color;
     }
 
-}
-
     public void maullar() {
         System.out.println("¡Miau!");
     }
@@ -23,3 +21,5 @@ public class Gato {
     public void comer() {
         System.out.println(nombre + " está comiendo.");
     }
+
+}
