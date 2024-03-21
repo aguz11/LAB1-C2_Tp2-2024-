@@ -2,7 +2,6 @@ package lab1.c2_tp2.pkg2024;
 
 /* Autor Rocio Dell Elice  */
 
-
 public class Gato extends Mascota {
     String comida;
 
@@ -29,4 +28,3 @@ public class Gato extends Mascota {
    public void Saludar() {
         System.out.println("Hola soy " + getNombre());
     }
-}
