@@ -3,7 +3,7 @@ package lab1.c2_tp2.pkg2024;
 /* Autor Rocio Dell Elice  */
 
 public class Gato {
-    
+
     private String nombre;
     private int edad;
     private String color;
@@ -13,6 +13,7 @@ public class Gato {
         this.edad = edad;
         this.color = color;
     }
+
 }
 
     public void maullar() {
